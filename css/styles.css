@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+h1,h2 {
+    font-weight: 700;
+}
+
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11; 
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:  calc(24/20); 
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header .logo-span {
+    color: #2E2F42;
+}
+
+.list-links .item-link {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+}
+
+.contact {
+    font-style: normal;
+}
+
+.list-contact .item-link {
+    color:  #434455;
+    font-weight: 400;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color:  #FFF;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07; 
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    color: #FFF;
+    /* font-family: Roboto;
+    font-size: 16px;
+    font-style: normal; */
+    font-weight: 500;
+    line-height: calc(24/16); 
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+
+.feature-list .item-text {
+    line-height: calc(24/16); 
+    letter-spacing: 0.02em;
+  
+}
+
+.team {
+    background-color:#F4F4FD;
+}
+
+.team-list .list-item {
+    background-color: #FFFFFF;
+}
+
+/* .team h3 {
+    text-align: center;
+} */
+
+.team-list .item-text,
+.portfolio-list .item-text,
+.footer .text {
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+}
+
+/* .team-list .item-text {
+    text-align: center;
+} */
+
+.footer {
+    background-color: #2E2F42;
+}
+.footer .logo-span,
+.footer .text  {
+    color: #F4F4FD;
+}
+
+.logo:hover,
+.logo:hover .logo-span,
+.logo:focus,
+.logo:focus .logo-span,
+.item-link:hover,
+.item-link:focus
+  {
+    color:#404BBF  
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color:#404BBF;
+}
+
