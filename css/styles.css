@@ -73,22 +73,22 @@ body {
 
 .visually-hidden {
     position: absolute;
-    white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    margin: -1px;
     border: 0;
     padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    overflow: hidden;
 }  
 
 /* ----------------- */
 /* ----header------ */
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     border-bottom: 1px solid  #E7E9FC;
     background: var(--WHITE, #FFF);
 
@@ -110,6 +110,7 @@ body {
 }
 
 .list-links .item-link {
+    padding:24px 0;
     color: #2E2F42;
     font-weight: 500;
     line-height: calc(24/16);
