@@ -110,6 +110,7 @@ body {
 }
 
 .list-links .item-link {
+    display:block;
     padding:24px 0;
     color: #2E2F42;
     font-weight: 500;
@@ -131,6 +132,7 @@ body {
 .conteiner-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-nav {
     display: flex;
@@ -144,6 +146,7 @@ body {
 .list-contact {
     display: flex;
     gap: 40px;
+    
 }
 
 /* ----------------- */
